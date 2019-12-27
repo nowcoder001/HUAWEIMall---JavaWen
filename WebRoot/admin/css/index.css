@@ -1,0 +1,156 @@
+.dfkMain{
+	
+}
+.dfk_main {
+    float: left;
+    width: 25%;
+    position: relative;
+    background: #fff;
+    height: 90px;
+    margin-top: 15px;
+}
+.dfk_img1 {
+    background: #FFB800;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+.dfk_img1 i {
+    background: url(../images/icon_top.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.dfk_info {
+    margin: 25px 0 10px 5px;
+    font-size: 14px;
+    text-align: center;
+}
+.dfk_info a {
+    display: block;
+}
+
+.dfk_info p {
+    font-size: 22px;
+}
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+
+a, a:hover {
+    color: #555;
+    text-decoration: none;
+    outline: 0 none;
+}
+a:hover {
+    color: #FF5A00;
+}
+
+.dfk_img2 {
+    background: #32d65d;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top: 20px;
+}
+
+.dfk_img2 i {
+    background: url(../images/icon_top.png) no-repeat 0 -50px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 18px;
+}
+.dfk_img3 {
+    background: #01AAED;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    left: 10px;
+    top:20px;
+}
+.dfk_img3 i {
+    background: url(../images/icon_top.png) no-repeat 0 -104px;
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 16px;
+}
+
+.tj_tb {
+    float: left;
+    width: 50%;
+}
+table {
+    border-collapse: collapse;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.tj_tb td {
+    color: rgb(51, 51, 51);
+    font-size: 13px;
+    font-family: Î¢ÈíÑÅºÚ;
+    border-width: 0px;
+    border-style: initial;
+    border-color: initial;
+    border-image: initial;
+    padding: 4px;
+}
+.wenzhang_bak td {
+    padding: 5px 8px;
+    border: 1px #e8e8e8 solid;
+    height: 34px;
+    line-height: 28px;
+    font-size: 13px;
+}
+.aright {
+    text-align: right;
+}
+.tj_tb td span {
+    color: #888;
+}
+.gzhfs_right {
+    margin-left: 480px;
+}
+ol, ul, li, dl, dd, dt {
+    list-style: none;
+}
+.gzhfs_right li {
+    float: left;
+    width: 33.33%;
+    margin-top: 70px;
+    font-size: 13px;
+}
+.gzhfs_right li .padd10 {
+    padding-left: 25px;
+    text-align: center;
+}
+.gzhfs_right li h3 {
+    font-size: 22px;
+    line-height: 22px;
+    font-weight: normal;
+}
+.mat5 {
+    margin-top: 5px !important;
+}
+.gzhfs_right li {
+    float: left;
+    width: 33.33%;
+    margin-top: 70px;
+    font-size: 13px;
+}
+.gzhfs_right li.shop_ico3 {
+    background: url(../images/shop_ico3.gif) no-repeat;
+}

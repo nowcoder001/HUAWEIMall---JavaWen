@@ -1,0 +1,79 @@
+.right_main {
+    background: #fff;
+    border: 1px #f0f0f0 solid;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-top: 0;
+    position: relative;
+    box-shadow: 1px 3px 3px #eee;
+}
+
+.right_main .wenzhang {
+    margin: 10px 0;
+}
+
+.wenzhang td {
+    padding: 10px 5px;
+    height: 28px;
+    line-height: 28px;
+    font-size: 13px;
+}
+
+.input500 {
+    width: 500px;
+}
+.inputall {
+    height: 30px;
+    line-height: 30px;
+    border: 1px #ddd solid;
+    border-radius: 2px;
+    padding: 2px 8px;
+    font-size: 13px;
+    background: #fff;
+    color: #555;
+}
+
+textarea {
+    line-height: 24px;
+    border: 1px #ddd solid;
+    border-radius: 2px;
+    padding: 2px 5px;
+    font-size: 13px;
+    background: #fff;
+}
+
+.fl {
+    float: left;
+}
+
+.c999 {
+    color: #999 !important;
+}
+
+.mal10 {
+    margin-left: 10px !important;
+}
+.mat15 {
+    margin-top: 15px !important;
+}
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.mab5 {
+    margin-bottom: 5px !important;
+}
+.tjbtn {
+    background: #FF5722;
+    width: 100px;
+    height: 38px;
+    text-align: center;
+    line-height: 38px;
+    border-radius: 2px;
+    font-family: 'Î¢ÈíÑÅºÚ';
+    color: #fff;
+    border: 0;
+    font-size: 15px;
+    cursor: pointer;
+}

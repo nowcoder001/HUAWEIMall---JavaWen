@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+	<!-- 注册映射过滤器 -->
+  <filter>
+  	<filter-name>LoginFilter</filter-name>
+  	<filter-class>com.yidu.mall.filter.LoginFilter</filter-class>
+  </filter>	
+  
+  <filter-mapping>
+  	<filter-name>LoginFilter</filter-name>
+  	<url-pattern>/admin/index.jsp</url-pattern>
+  </filter-mapping>
+	
+  <servlet>
+    <servlet-name>ProductServlet</servlet-name>
+    <servlet-class>com.yidu.mall.product.servlet.ProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CategoryServlet</servlet-name>
+    <servlet-class>com.yidu.mall.product.servlet.CategoryServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>HtmlProductServlet</servlet-name>
+    <servlet-class>com.yidu.mall.product.servlet.HtmlProductServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OrderServlet</servlet-name>
+    <servlet-class>com.yidu.mall.order.servlet.OrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PayServlet</servlet-name>
+    <servlet-class>com.yidu.mall.order.servlet.PayServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserServlet</servlet-name>
+    <servlet-class>com.yidu.mall.user.servlet.UserServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ShippingServlet</servlet-name>
+    <servlet-class>com.yidu.mall.express.servlet.ShippingServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminOrderServlet</servlet-name>
+    <servlet-class>com.yidu.mall.order.servlet.AdminOrderServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AdminServlet</servlet-name>
+    <servlet-class>com.yidu.mall.admin.servlet.AdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MenberServlet</servlet-name>
+    <servlet-class>com.yidu.mall.user.servlet.MenberServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentServlet</servlet-name>
+    <servlet-class>com.yidu.mall.comment.servlet.CommentServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentAdminServlet</servlet-name>
+    <servlet-class>com.yidu.mall.comment.servlet.CommentAdminServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CouponServlet</servlet-name>
+    <servlet-class>com.yidu.mall.coupon.servlet.CouponServlet</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>ProductServlet</servlet-name>
+    <url-pattern>/admin/productServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CategoryServlet</servlet-name>
+    <url-pattern>/admin/categoryServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>HtmlProductServlet</servlet-name>
+    <url-pattern>/htmlProductServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>OrderServlet</servlet-name>
+    <url-pattern>/orderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PayServlet</servlet-name>
+    <url-pattern>/payServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserServlet</servlet-name>
+    <url-pattern>/userServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ShippingServlet</servlet-name>
+    <url-pattern>/shippingServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminOrderServlet</servlet-name>
+    <url-pattern>/admin/adminOrderServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AdminServlet</servlet-name>
+    <url-pattern>/admin/adminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MenberServlet</servlet-name>
+    <url-pattern>/menberServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentServlet</servlet-name>
+    <url-pattern>/commentServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentAdminServlet</servlet-name>
+    <url-pattern>/admin/commentAdminServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CouponServlet</servlet-name>
+    <url-pattern>/couponServlet</url-pattern>
+  </servlet-mapping>
+  <welcome-file-list>
+    <welcome-file>index.jsp</welcome-file>
+  </welcome-file-list>
+</web-app>
