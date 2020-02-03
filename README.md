@@ -1,6 +1,5 @@
 # HUAWEIMall---JavaWen  
 仿华为商城javaweb项目  
-留个名：涛古  
   
 这是几个人做了几周的小作品(仿华为商城)  
 servlet+jsp+ajax实现  
